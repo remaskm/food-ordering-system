@@ -9,7 +9,7 @@ This repository contains a **C# WinForms application for a Food Ordering System*
 * **Order Processing**: Customers place orders with multiple meals; orders move through statuses: pending, processing, completed.
 * **Payment Handling**: Supports cashless payments tied to customer balances.
 * **Feedback System**: Customers rate meals (1–5 stars) and optionally leave comments.
-* **Analytics Overview**: Admins can see stats on orders and feedback.
+* **Analytics Overview**: Admins can see stats on orders, customers, and meals.
 
 ## Prerequisites
 
@@ -39,14 +39,14 @@ This repository contains a **C# WinForms application for a Food Ordering System*
 Launch the app and log in as either a Customer or Admin.
 
 * **Customers** can browse meals, place orders, pay using their balance, and add feedback.
-* **Admins** can manage meals, view all orders, and access feedback analytics.
+* **Admins** can manage meals, view all orders, and access analytics.
 
 ### Example workflow for a Customer:
 
 1. Select meals and quantities.
 2. Submit the order.
 3. Make payment from balance.
-4. Leave feedback with a star rating and optional comment.
+4. Leave feedback with a star rating and comment.
 
 ## Business Logic Highlights
 
