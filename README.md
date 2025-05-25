@@ -30,7 +30,7 @@ This repository contains a **C# WinForms application for a Food Ordering System*
 
 3. **Set up the database**:
    * Run [Database/schema.sql](Database/schema.sql) to create the database schema.
-   * Then run 'Database/sample_data.sql' to insert sample data for testing.
+   * Then run [Database/sample_data.sql](Database/sample_data.sql) to insert sample data for testing.
 
 4. **Update the database connection string** in the app configuration file to match your setup.
 
