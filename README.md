@@ -28,7 +28,9 @@ This repository contains a **C# WinForms application for a Food Ordering System*
 
 2. **Open the solution** in Visual Studio.
 
-3. **Run the SQL scripts** located in the `Database` folder to create tables and seed sample data.
+3. **Set up the database**:
+   * Run Database/schema.sql to create the database schema.
+   * Then run Database/sample_data.sql to insert sample data for testing.
 
 4. **Update the database connection string** in the app configuration file to match your setup.
 
@@ -53,13 +55,16 @@ Launch the app and log in as either a Customer or Admin.
 * Customers have balances and can only order if meals are available.
 * Admins have full control over meal inventory and system data.
 * Seasonal meals appear only during their defined season.
-* Feedback requires a rating (1-5 stars) and can be edited or deleted.
+* Feedback requires a rating (1–5 stars) and can be edited or deleted.
 * Orders cannot be completed without a valid payment record.
 
 ## Project Structure
 
 * **Forms/** – UI components for login, ordering, admin controls, and feedback.
-* **Database/** – SQL scripts to create schema, stored procedures, and views.
+* **Database/** – SQL scripts to create schema and populate sample data:
+
+   * `schema.sql`: Creates all required tables and relations.
+   * `sample_data.sql`: Inserts sample meals, users, and orders for testing.
 * **Models/** – Classes representing users, meals, orders, feedback.
 * **Helpers/** – Utility functions and database connection handling.
 
