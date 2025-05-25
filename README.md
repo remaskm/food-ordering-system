@@ -1,4 +1,4 @@
-# Food Ordering System (C# WinForms + SQL)
+# Food Ordering System
 
 This repository contains a **C# WinForms application for a Food Ordering System** backed by a SQL database. It simulates a basic restaurant management system where customers can place orders, make payments, and leave feedback, while admins manage meals and track orders.
 
