@@ -70,5 +70,4 @@ Launch the app and log in as either a Customer or Admin.
 
 ## License
 
-This project is for learning and personal use only.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
